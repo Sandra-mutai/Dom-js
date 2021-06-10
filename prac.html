@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-<title>quiz</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quize</title>
 </head>
 <body>
+    <script src="cat.js"></script>
 
-    <input type="text" placeholder="name" id="name"><br>
-    <button type="button" onclick="getInputValue();">sandra mutai</button><br>
-
-    <input type="text" placeholder="class" id="name"><br>
-    <button type="button" onclick="getInputValue();">AnitaB</button><br>
-    
-    <input type="text" placeholder="subject" id="subject"><br>
-    <button type="button" onclick="getInputValue();">javascript</button><br>
-
-    <input type="text" placeholder="date" id="date"><br>
-    <button type="button" onclick="getInputValue();">10th june 2021</button><br>
-
-
+    <form>
+        <div id="QUIZ">
+            <h1> QUIZ </h1>
+            <label>NAME: </label>
+            <input type="text" id="name" placeholder="sandra mutai" name="name" required><br>
+            <label>CLASS : </label><br>
+            <input type="text" id="class" placeholder="AnitaB" name="class" required><br>
+            <label>SUBJECT: </label><br>
+            <input type="text" id="subject" placeholder="javascript" name="subject" required><br>
+            <label>DATE : </label><br>
+            <input type="date" id="me" name=" date" value="2021-06-10" ><br>
+            <button id="Submit" type="submit">Get results</button><br>
 
 </body>
 </html>
-
-
+<br>
 
 
 2.Objects are containers for  for holding either properties or  methods.<br>
     a)we can create a object using a keyword "new"<br>
     b) Or we can create an object using an existing object<br>
 
-3.The scope of a variable is declared by using keyword  "var" , 
-it's a  variables declared not outside any function. 
+3.The scope of a variable is declared by using keyword  "var" ,
+it's a  variables declared not outside any function.Scope determines <br>
+wether a variable or a function is  accessibile or not,it will be if it's declared as global
+variable and  will not be accessible if it's declared as local scope.
 
-4.There will be no output in both . 
+4.There will be no output in both .
